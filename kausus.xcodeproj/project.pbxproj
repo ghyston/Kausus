@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F05C28C28DA4D0300D07E32 /* Kausus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F05C28A28DA4D0300D07E32 /* Kausus.xcdatamodeld */; };
+		3F05C28E28DA4E4800D07E32 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F05C28D28DA4E4800D07E32 /* DataController.swift */; };
 		3F50988628CD233400D7BA92 /* kaususApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50988528CD233400D7BA92 /* kaususApp.swift */; };
 		3F50988828CD233400D7BA92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50988728CD233400D7BA92 /* ContentView.swift */; };
 		3F50988A28CD233700D7BA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F50988928CD233700D7BA92 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 		3F50989828CD233700D7BA92 /* kaususTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50989728CD233700D7BA92 /* kaususTests.swift */; };
 		3F5098A228CD233700D7BA92 /* kaususUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5098A128CD233700D7BA92 /* kaususUITests.swift */; };
 		3F5098A428CD233700D7BA92 /* kaususUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5098A328CD233700D7BA92 /* kaususUITestsLaunchTests.swift */; };
+		3F5098B128CD33A200D7BA92 /* BaseStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5098B028CD33A200D7BA92 /* BaseStructs.swift */; };
+		3F5098B328CD33FD00D7BA92 /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5098B228CD33FD00D7BA92 /* WordGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F05C28B28DA4D0300D07E32 /* Word.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Word.xcdatamodel; sourceTree = "<group>"; };
+		3F05C28D28DA4E4800D07E32 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		3F50988228CD233400D7BA92 /* kausus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kausus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F50988528CD233400D7BA92 /* kaususApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaususApp.swift; sourceTree = "<group>"; };
 		3F50988728CD233400D7BA92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +51,8 @@
 		3F50989D28CD233700D7BA92 /* kaususUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaususUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5098A128CD233700D7BA92 /* kaususUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaususUITests.swift; sourceTree = "<group>"; };
 		3F5098A328CD233700D7BA92 /* kaususUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaususUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F5098B028CD33A200D7BA92 /* BaseStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseStructs.swift; sourceTree = "<group>"; };
+		3F5098B228CD33FD00D7BA92 /* WordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +103,15 @@
 		3F50988428CD233400D7BA92 /* kausus */ = {
 			isa = PBXGroup;
 			children = (
+				3F5098B028CD33A200D7BA92 /* BaseStructs.swift */,
 				3F50988528CD233400D7BA92 /* kaususApp.swift */,
 				3F50988728CD233400D7BA92 /* ContentView.swift */,
 				3F50988928CD233700D7BA92 /* Assets.xcassets */,
 				3F50988E28CD233700D7BA92 /* kausus.entitlements */,
 				3F50988B28CD233700D7BA92 /* Preview Content */,
+				3F5098B228CD33FD00D7BA92 /* WordGenerator.swift */,
+				3F05C28A28DA4D0300D07E32 /* Kausus.xcdatamodeld */,
+				3F05C28D28DA4E4800D07E32 /* DataController.swift */,
 			);
 			path = kausus;
 			sourceTree = "<group>";
@@ -260,6 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F50988828CD233400D7BA92 /* ContentView.swift in Sources */,
+				3F05C28E28DA4E4800D07E32 /* DataController.swift in Sources */,
+				3F05C28C28DA4D0300D07E32 /* Kausus.xcdatamodeld in Sources */,
+				3F5098B328CD33FD00D7BA92 /* WordGenerator.swift in Sources */,
+				3F5098B128CD33A200D7BA92 /* BaseStructs.swift in Sources */,
 				3F50988628CD233400D7BA92 /* kaususApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,6 +584,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F05C28A28DA4D0300D07E32 /* Kausus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F05C28B28DA4D0300D07E32 /* Word.xcdatamodel */,
+			);
+			currentVersion = 3F05C28B28DA4D0300D07E32 /* Word.xcdatamodel */;
+			path = Kausus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3F50987A28CD233400D7BA92 /* Project object */;
 }
